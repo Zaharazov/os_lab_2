@@ -97,7 +97,7 @@ int main (int argc, char * argv[])
     int n_of_var;
     std::cin >> n_of_var;
 
-    if (n_of_eq == 0 or n_of_var == 0)
+    if (n_of_eq <= 0 or n_of_var <= 0)
     {
         std::cerr << "Incorrect parameters." << std::endl;
         return 1;
